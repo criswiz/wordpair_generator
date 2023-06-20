@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-//import './random_words.dart';
-import './test.dart';
+import './random_words.dart';
 
 void main() => runApp(const MyApp());
 
@@ -15,6 +14,6 @@ class MyApp extends StatelessWidget {
             backgroundColor: Color.fromARGB(255, 77, 17, 150),
           ),
         ),
-        home: const SenseiTest());
+        home: const RandomWords());
   }
 }
